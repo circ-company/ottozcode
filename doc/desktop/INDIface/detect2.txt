@@ -1,0 +1,44 @@
+Detect/CharcolDir} = empty
+Detect/DetectorsXml
+Detect/Enable} = 1
+Detect/FaceDetector
+Detect/Factor} for 29d7158 = 0
+Detect/Flags} for 29d7158 = 1
+Detect/ForceFind} for 29d7158 = false
+Detect/GroupMethod} for 29d7158 = 3
+Detect/InputOverCrop} = 0
+Detect/MarkAll} for 29d7158 = false
+Detect/MarkColors} for 29d7158 = empty
+Detect/MarkExtraColor} for 29d7158 = empty
+Detect/MarkScaleColor} for 29d7158 = empty
+Detect/MaxAcross} for 29d7158 = 0
+Detect/MaxDensity} for 29d7158 = 0
+Detect/MaxDetectors} for 29d7158 = 0
+Detect/MaxDimension} for 29d7158 = 4096
+Detect/MaxPixels} for 29d7158 = 0
+Detect/MaxResults} for 29d7158 = 10
+Detect/MinAcross} for 29d7158 = 0
+Detect/MinPixels} for 29d7158 = 0
+Detect/MinQuality} for 29d7158 = 800
+Detect/OutputDir} = empty
+Detect/Scale} for 29d7158 = 0
+Detect/SkinDir} = empty
+
+    Q_PROPERTY(qreal Factor READ factor WRITE setFactor)
+    Q_PROPERTY(int EyeScale READ eyeScale WRITE setEyeScale)
+    Q_PROPERTY(int RoiScale READ roiScale WRITE setRoiScale)
+    Q_PROPERTY(int MinConsistency READ minConsistency WRITE setMinConsistency)
+    Q_PROPERTY(QString LeftDetector READ leftDetector WRITE setLeftDetector)
+    Q_PROPERTY(QString RightDetector READ rightDetector WRITE setRightDetector)
+    Q_PROPERTY(unsigned LeftInterface READ leftInterface WRITE setLeftInterface)
+    Q_PROPERTY(unsigned RightInterface READ rightInterface WRITE setRightInterface)
+
+Generate/DataDir
+Generate/Enable} = 1
+Generate/EyeScale} for 29d4b98 = 0
+Generate/Factor} = 3
+Generate/LeftDetector} for 29d4b98 = LEye
+Generate/MinConsistency} for 29d4b98 = 100
+Generate/OutputDir} = empty
+Generate/RightDetector} for 29d4b98 = REye
+Generate/RoiScale} for 29d4b98 = 100

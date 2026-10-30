@@ -1,0 +1,9 @@
+Generate/DataDir
+Generate/Enable} = 1
+Generate/EyeScale} for 29d4b98 = 0
+Generate/Factor} = 3
+Generate/LeftDetector} for 29d4b98 = LEye
+Generate/MinConsistency} for 29d4b98 = 100
+Generate/OutputDir} = empty
+Generate/RightDetector} for 29d4b98 = REye
+Generate/RoiScale} for 29d4b98 = 100
